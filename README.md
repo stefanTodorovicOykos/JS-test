@@ -13,7 +13,7 @@ Employees bi trebalo da imaju:
 - ID tipa zaposlenog
 - Slika(naci sa int neki link koji ce se prikazivati)
 
-Type bi trebalo da ima:
+Type zaposlenog bi trebalo da ima:
 
 - ID
 - Ime type
@@ -31,5 +31,5 @@ U formi bi trebalo da se upisuje:
 - Ime
 - Prezime
 - Datum rodjenja (koristiti input za date. Kada se salje ka serveru trebao bi biti string)
-- ID tipa zaposlenog (napraviti selektor koji ce izlistaviat podatke iz niza type)
+- ID tipa zaposlenog (napraviti selektor koji ce izlistati podatke iz niza type)
 - Slika (staviti bilo koji link)
