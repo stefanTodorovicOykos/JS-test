@@ -2,25 +2,25 @@
 
 **Step 1**
 
-Napraviti Moc podatke za zaposlene u data.json-u. Za pozivanje podataka cemo koristit json-server (https://www.npmjs.com/package/json-server)
+Napraviti Moc podatke za zaposlene u db.json-u. Za pozivanje podataka cemo koristit json-server (https://www.npmjs.com/package/json-server)
 
-Employs bi trebali da imaju:
+Employees bi trebalo da imaju:
 
-- Id
+- ID
 - Ime
 - Prezime
 - Datum rodjenja
-- Id tipa zaposlenog
+- ID tipa zaposlenog
 - Slika(naci sa int neki link koji ce se prikazivati)
 
 Type zaposlenog bi trebalo da ima:
 
-- Id
+- ID
 - Ime type
 
 **Step 2**
 
-Treba pozvari podatke iz data.json-a. Izmapirati podatke i prikazati ih u index.html.
+Treba pozvati podatke iz db.json-a. Izmapirati podatke i prikazati ih u index.html.
 Novi niz trebalo bi da ima ime type-a. Napraviti kartice koje ce se renderovati pomocu js metoda u index.html.
 Kartica bi trebala da ima sve podatke o zaposlenom i prikazivati njegovu sliku.
 
